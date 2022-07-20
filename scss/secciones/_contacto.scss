@@ -1,0 +1,21 @@
+.formulario {
+    display: flexbox;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 15px;
+    width: 375px;
+    max-height: 600px;
+    padding: 1px;
+    background-color: $grisprincipal;
+    border-radius: 15px;
+    .form{
+    margin: 30px;
+    font-family: 'DM Sans', sans-serif;
+    }
+    input{
+        width: 250px;
+        border-radius: 8px;
+        border-color: none;
+    }
+    }

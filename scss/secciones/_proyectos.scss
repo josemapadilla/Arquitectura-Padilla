@@ -1,0 +1,41 @@
+.proyectosSeccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 5px;
+}
+
+h2{
+    margin: 5px auto;
+    padding: 5px;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+.proyectos {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    margin: 5px;
+    img{
+        width: 30%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .proyectos {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: space-evenly;
+        align-items: center;
+        margin: 5px;
+        img{
+            width: 70%;
+        }
+    }
+
+
+}

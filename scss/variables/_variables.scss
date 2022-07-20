@@ -1,0 +1,13 @@
+$grisprincipal: rgba(128, 128, 128, 0.232);
+
+%estilofooter{
+    font-family: 'DM Sans', sans-serif;
+    font-size: .8rem;
+    margin: 5px;  
+}
+
+@mixin flex ($flexdirection, $align-item) {
+    display: flex;
+    flex-direction: $flexdirection;
+    align-items: $align-item;    
+}
